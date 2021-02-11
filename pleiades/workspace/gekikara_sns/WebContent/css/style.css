@@ -1,0 +1,167 @@
+@CHARSET "UTF-8";
+
+body {
+    color: #333333;
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #DD0000;
+}
+
+#content {
+    width: 94%;
+    margin-top: 15px;
+    padding-left: 3%;
+}
+
+h1 {
+    font-size: 24px;
+    display: inline;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #24738e;
+}
+
+table, tr, th, td {
+    border: 1px solid #B22222;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td {
+    width: 66%;
+    padding: 10px 2%;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#footer {
+    text-align: center;
+}
+
+table#contributor_list th {
+    width: 30%;
+    padding: 10px 2%;
+}
+
+table#contributor_list td {
+    width: 29%;
+    padding: 10px 2%;
+}
+
+tr.row1 {
+        background-color: #f2f2f2;
+}
+tr.row0 {
+        background-color: #ffffff;
+}
+
+select{
+
+    height: 30px;
+}
+
+#header_menu {
+    width: 57%;
+    padding-top: 17px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#contributor_name {
+    color: #cccccc;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a {
+    color: #eeeeee;
+}
+
+h1 a {
+    color: #eeeeee;
+}
+
+table#report_list th {
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#report_list .report_name {
+    width: 20%;
+    padding: 10px 2%;
+}
+table#report_list .report_date {
+    width: 20%;
+}
+
+table#report_list .report_title {
+    width: 37%;
+}
+
+table#report_list .report_action {
+    width: 13%;
+}
+
+pre {
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+<style>
+/* 未選択時 */
+div.circle div.rateit-range {
+    background: url(img/circle_gray.png);
+}
+/* マウスオーバー時 */
+div.circle div.rateit-hover {
+    background: url(img/circle_green.png);
+}
+/* 選択時 */
+div.circle div.rateit-selected {
+    background: url(img/circle_red.png);
+}
+
+/* リセットボタン */
+div.circle button.rateit-reset {
+    background: url(img/circle_reset.png);
+    width:50px;
+    height:50px;
+}
+/* リセットボタン：マウスオーバー時 */
+div.circle button.rateit-reset:hover {
+    background: url(img/circle_reset_on.png);
+}
+</style>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<!-- jQueryの読込 -->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- RateItの読込 ... （1） -->
+<link href="js/RateIt/rateit.css" rel="stylesheet" type="text/css" />
+<script src="js/RateIt/jquery.rateit.min.js"></script>
+
+<script>
+    $(function() {
+        // RateItの設定 ...（2）
+        $("#rateit1").rateit();
+    });
+</script>
+
+<title>RateIt サンプル1</title>
+</head>
+<body>
+    <h1>RateIt サンプル1</h1>
+    <!-- スターを表示する要素1 ... （3） -->
+    <h3>1. HTML/CSSによる指定</h3>
+    <div class="rateit"></div>
+
+    <!-- スターを表示する要素2 ... （4） -->
+    <h3>2. JavaScriptによる指定</h3>
+    <div id="rateit1"></div>
+</body>
+</html>
